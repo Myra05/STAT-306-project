@@ -1,0 +1,1 @@
+data = read.csv2("bc-data-catalogue-cma-2025-q3.csv", header=TRUE, sep=",")
