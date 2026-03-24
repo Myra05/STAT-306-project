@@ -134,3 +134,37 @@ print(model_results)
 model_performance <- glance(model)
 print("Model Performance (R-squared):")
 print(model_performance$adj.r.squared)
+
+par(mfrow = c(2, 2))
+
+plot(vancouver_data$income_10k, resid(model),
+     xlab = "Income (10k units)",
+     ylab = "Residuals",
+     main = "Residuals vs Income")
+abline(h = 0, lty = 2)
+lines(lowess(vancouver_data$income_10k, resid(model)), lwd = 2)
+
+plot(vancouver_data$prime_interest_rate, resid(model),
+     xlab = "Prime interest rate",
+     ylab = "Residuals",
+     main = "Residuals vs Prime Interest Rate")
+abline(h = 0, lty = 2)
+lines(lowess(vancouver_data$prime_interest_rate, resid(model)), lwd = 2)
+
+boxplot(resid(model) ~ vancouver_data$housing_type,
+        xlab = "Housing type",
+        ylab = "Residuals",
+        main = "Residuals vs Housing Type")
+abline(h = 0, lty = 2)
+
+plot.new()
+
+par(mfrow = c(1, 1))
+
+ord <- order(vancouver_data$year, vancouver_data$quarter)
+
+plot(resid(model)[ord], type = "b",
+     xlab = "Time order",
+     ylab = "Residuals",
+     main = "Sequential Residuals")
+abline(h = 0, lty = 2)
