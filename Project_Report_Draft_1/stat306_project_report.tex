@@ -27,14 +27,14 @@ As students currently struggling with affordability in Metro Vancouver, we wante
 \hline
 \textbf{Variable Name(s)} & \textbf{Type} & \textbf{Description} \\ \hline
 \endhead
-CMA ID & Integer & \multirow{2}{=}{Census metropolitan area ID/Name assigned by Statistics Canada, which corresponds to population centres. See the definition on their \href{https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/az/definition-eng.cfm?ID=geo009}{website}.} \\[4ex] \cline{1-2}
+CMA ID & Categorical & \multirow{2}{=}{Census metropolitan area ID/Name assigned by Statistics Canada, which corresponds to population centres. See the definition on their \href{https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/az/definition-eng.cfm?ID=geo009}{website}.} \\[4ex] \cline{1-2}
 CMA NAME & Categorical & \\ \hline
 YEAR & Integer & \multirow{3}{=}{Each row is specified by a combination of YEAR, QUARTER and HOUSING TYPE. 
 YEAR value ranges from 2000 to 2025. QUARTER value ranges from 1 to 4 (Q1--Q4), up to 2025 Q3. 
 HOUSING TYPE values is one of the values in this set: \{Single-detached, Apartment, Row Housing, All Housing Types\}} \\[6ex] \cline{1-2}
 QUARTER & Integer & \\ \cline{1-2}
 HOUSING TYPE & Categorical & \\ \hline
-MEDIAN HOUSING PRICE & Integer & Sale price for a particular year/quarter/house-type. (CAD) \\ \hline
+MEDIAN HOUSING PRICE & Integer & Median sale price for a particular year/quarter/house-type. (CAD) This is derived from BC Assessment Data and smoothed out using a 3-month moving average. \\ \hline
 MEDIAN INCOME & Float & Estimated quarterly median family income. (CAD) \\ \hline
 PRIME INTEREST RATE & Float & Base loan interest rate used to estimate mortgage rates. (\%).\\ \hline
 MPPI & Float & Affordability metric based on median after-income tax, home price, minimum down payment, and 25-year variable rate mortgage (based on prime). Higher means less affordable. (\% of income) \\ \hline
@@ -55,7 +55,6 @@ The data was almost entirely clean from the start, there was nothing missing, an
 \toprule
 Variable & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. \\
 \midrule
-cma\_id & 933 & 933 & 933 & 933 & 933 & 933 \\
 year & 2000 & 2006 & 2012 & 2012 & 2019 & 2025 \\
 quarter & 1.000 & 1.000 & 2.000 & 2.485 & 3.000 & 4.000 \\
 median\_housing\_price & 150000 & 345054 & 481951 & 580608 & 683052 & 1855068 \\
@@ -293,5 +292,5 @@ Prompt: Here is my jupyter notebook, please transcribe all data frames and table
 
 \section*{Reference}
 Housing Affordability for Homeowners in B.C. Technical Note,
-\href{https://catalogue.data.gov.bc.ca/dataset/b-c-housing-affordability/resource/f8153a37-f18d-4d4e-bbe6-77f648bc1f31=}{link}
+\href{https://catalogue.data.gov.bc.ca/dataset/b-c-housing-affordability/resource/f8153a37-f18d-4d4e-bbe6-77f648bc1f31=}{\underline{link}}
 \end{document}

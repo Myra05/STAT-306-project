@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1774417705.08013 "d:/Stuff/UBC/STAT 306/STAT-306-project/Project_Report_Draft_1/stat306_project_report.tex" "stat306_project_report.pdf" "stat306_project_report" 1774417705.80946 0
-  "C:/Users/yuen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774412729 80937 91001db6d4ae332437b4b739862cda02 ""
+["pdflatex"] 1775672695.01582 "d:/Stuff/UBC/STAT 306/STAT-306-project/Project_Report_Draft_1/stat306_project_report.tex" "stat306_project_report.pdf" "stat306_project_report" 1775672695.71397 0
+  "C:/Users/yuen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775502918 92867 22be7422643eb76cee05f5f876c812cc ""
   "C:/Users/yuen/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1768198900 25420 eccbf510cb0297af1712d8c3c7b8d66e ""
   "C:/Users/yuen/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1768198895 31952 6c5a60814e76f700566a5783a04490e4 ""
   "C:/Users/yuen/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1768198896 40136 c0faf65bc6c8b4fb4f956e551e1c085a ""
@@ -88,16 +88,16 @@
   "C:/Users/yuen/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/yuen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/yuen/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "d:/Stuff/UBC/STAT 306/STAT-306-project/Project_Report_Draft_1/stat306_project_report.tex" 1774417704 20354 ff604c9b1cda34286cd1a1882b75a81e ""
+  "d:/Stuff/UBC/STAT 306/STAT-306-project/Project_Report_Draft_1/stat306_project_report.tex" 1775672693 20419 6e14b2afca1c62c37d766498e7e07fec ""
   "figs/2by2.png" 1774416753 18639 0d9bccd606a72bd8a08c55742392cc7b ""
   "figs/distribution.png" 1774417347 11510 af7a94dfb1c2e8a7df0a1a9fd887c55e ""
   "figs/heatmap.png" 1774417072 43107 900b0bf50d8abc50d82f6650ca38b066 ""
   "figs/housingpriceslinegraph.png" 1774417161 16359 e938a7867af4d15a6f87f7fd7889a6c5 ""
   "figs/seqresids.png" 1774416758 18375 42568f8c58ba1a84e426b9084d7e1412 ""
   "figs/varianceassumptionplots.png" 1774416988 24556 1ecff1b6bce21ea0e46c153c86f8eb5d ""
-  "stat306_project_report.aux" 1774417705 2882 62ed023ed050984da3f99cab70ff78d9 "pdflatex"
-  "stat306_project_report.out" 1774417705 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "stat306_project_report.tex" 1774417704 20354 ff604c9b1cda34286cd1a1882b75a81e ""
+  "stat306_project_report.aux" 1775672695 2882 62ed023ed050984da3f99cab70ff78d9 "pdflatex"
+  "stat306_project_report.out" 1775672695 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "stat306_project_report.tex" 1775672693 20419 6e14b2afca1c62c37d766498e7e07fec ""
   (generated)
   "stat306_project_report.aux"
   "stat306_project_report.log"
