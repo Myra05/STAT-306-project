@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  8 APR 2026 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  9 APR 2026 17:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -379,165 +379,171 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\yuen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-
-Overfull \vbox (12.0pt too high) detected at line 30
- []
-
-
-Overfull \vbox (24.0pt too high) detected at line 34
- []
-
-[1
+)) [1
 
 {C:/Users/yuen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<figs/heatmap.png, id=20, 660.96938pt x 592.46344pt>
+
+LaTeX Warning: No \author given.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 42
+ []
+
+
+Overfull \vbox (24.0pt too high) detected at line 46
+ []
+
+[2
+
+]
+<figs/heatmap.png, id=26, 660.96938pt x 592.46344pt>
 File: figs/heatmap.png Graphic file (type png)
 <use figs/heatmap.png>
-Package pdftex.def Info: figs/heatmap.png  used on input line 76.
+Package pdftex.def Info: figs/heatmap.png  used on input line 88.
 (pdftex.def)             Requested size: 328.82541pt x 294.75743pt.
-<figs/housingpriceslinegraph.png, id=21, 752.8125pt x 451.6875pt>
+<figs/housingpriceslinegraph.png, id=27, 752.8125pt x 451.6875pt>
 File: figs/housingpriceslinegraph.png Graphic file (type png)
 <use figs/housingpriceslinegraph.png>
-Package pdftex.def Info: figs/housingpriceslinegraph.png  used on input line 85.
+Package pdftex.def Info: figs/housingpriceslinegraph.png  used on input line 97.
 (pdftex.def)             Requested size: 379.4175pt x 227.65584pt.
- [2
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-     
+l.100 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-      <./figs/heatmap.png (PNG copy)>]
-<figs/distribution.png, id=31, 660.96938pt x 592.46344pt>
+l.100 
+       <./figs/heatmap.png (PNG copy)>]
+<figs/distribution.png, id=37, 660.96938pt x 592.46344pt>
 File: figs/distribution.png Graphic file (type png)
 <use figs/distribution.png>
-Package pdftex.def Info: figs/distribution.png  used on input line 93.
+Package pdftex.def Info: figs/distribution.png  used on input line 105.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
- [3
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.102 \subsection
+l.115 \subsection
                  *{Model Selection}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.102 \subsection
+l.115 \subsection
                  *{Model Selection} <./figs/housingpriceslinegraph.png> <./figs/distribution.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-[4
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 
+l.193 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 
+l.193 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 
+l.193 
       ]
-<figs/varianceassumptionplots.png, id=54, 660.96938pt x 592.46344pt>
+<figs/varianceassumptionplots.png, id=60, 660.96938pt x 592.46344pt>
 File: figs/varianceassumptionplots.png Graphic file (type png)
 <use figs/varianceassumptionplots.png>
-Package pdftex.def Info: figs/varianceassumptionplots.png  used on input line 216.
+Package pdftex.def Info: figs/varianceassumptionplots.png  used on input line 230.
 (pdftex.def)             Requested size: 328.82541pt x 294.75743pt.
- [5
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219 \clearpage
+l.233 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219 \clearpage
+l.233 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219 \clearpage
+l.233 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219 \clearpage
+l.233 \clearpage
                  <./figs/varianceassumptionplots.png>]
-<figs/2by2.png, id=64, 660.96938pt x 592.46344pt>
+<figs/2by2.png, id=70, 660.96938pt x 592.46344pt>
 File: figs/2by2.png Graphic file (type png)
 <use figs/2by2.png>
-Package pdftex.def Info: figs/2by2.png  used on input line 225.
+Package pdftex.def Info: figs/2by2.png  used on input line 239.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
-<figs/seqresids.png, id=65, 660.96938pt x 592.46344pt>
+<figs/seqresids.png, id=71, 660.96938pt x 592.46344pt>
 File: figs/seqresids.png Graphic file (type png)
 <use figs/seqresids.png>
-Package pdftex.def Info: figs/seqresids.png  used on input line 233.
+Package pdftex.def Info: figs/seqresids.png  used on input line 247.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
- [6
+ [7
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.236 \clearpage
+l.250 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.236 \clearpage
+l.250 \clearpage
                  <./figs/2by2.png> <./figs/seqresids.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-[7
+[8
 
-] [8] (stat306_project_report.aux)
+] [9] (stat306_project_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -546,17 +552,17 @@ Package rerunfilecheck Info: File `stat306_project_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10369 strings out of 467871
- 160308 string characters out of 5418860
- 603412 words of memory out of 5000000
- 39086 multiletter control sequences out of 15000+600000
- 637997 words of font info for 61 fonts, out of 8000000 for 9000
+ 10393 strings out of 467871
+ 160631 string characters out of 5418860
+ 590412 words of memory out of 5000000
+ 39101 multiletter control sequences out of 15000+600000
+ 641372 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,919b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on stat306_project_report.pdf (8 pages, 311133 bytes).
+ 75i,10n,79p,928b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\yuen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yuen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on stat306_project_report.pdf (9 pages, 321972 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,9 +15,21 @@
 \setlength{\parindent}{0pt}
 
 \begin{document}
-\section*{Project Report Draft 1}
+\section*{Statement of Changes}
+The following changes were made to the project draft: 
+\begin{itemize}
+    \item Changed CMA ID type to Categorical and removed it from the summary table at the start of EDA
+    \item Improved the description for the varialbe \verb|MEDIAN HOUSING PRICE|
+\end{itemize}
+Now, the project draft follows.
+\clearpage
+
+\title{Project Report Draft 2}
+\maketitle
+
 \section*{Introduction}
-In this report, we aim to explore housing affordability in Metro Vancouver, through analysis of the “Housing Affordability for New Homeowners in B.C., Census Metropolitan Areas Quarterly Data 2025 Q3” dataset obtained from the B.C. Data Catalogue. The complete dataset contains data from all major cities in BC, gathered quarterly. The data was gathered to improve affordability across BC. This data was collected through a combined effort by Statistics Canada, Bank of Canada and BC Assessment, and compiled by BC Stats. They used informational sources such as CRA tax returns, CPI surveys, and property information gathered via BC assessments. Source: \url{https://catalogue.data.gov.bc.ca/dataset/b-c-housing-affordability/resource/a71e6838-cda1-4acb-adfb-8515c4f9fec9} \\\\
+In this report, we aim to explore housing affordability in Metro Vancouver, through analysis of the “Housing Affordability for New Homeowners in B.C., Census Metropolitan Areas Quarterly Data 2025 Q3” dataset obtained from the B.C. Data Catalogue. The complete dataset contains data from all major cities in BC, gathered quarterly. The data was gathered to improve affordability across BC. This data was collected through a combined effort by Statistics Canada, Bank of Canada and BC Assessment, and compiled by BC Stats. They used informational sources such as CRA tax returns, CPI surveys, and property information gathered via BC assessments. \href{https://catalogue.data.gov.bc.ca/dataset/b-c-housing-affordability/resource/a71e6838-cda1-4acb-adfb-8515c4f9fec9}{\underbar{Source}}\\
+
 As students currently struggling with affordability in Metro Vancouver, we wanted to investigate housing affordability trends in this area and its association to variables such as housing prices, the prime rate, and family income. Our research focuses on identifying the extent to which Median After-Tax Family Income and Prime Interest Rates are associated with Median Housing Prices, while controlling for property types and market volume.
 \subsection*{Variables}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{0.22\textwidth} | >{\raggedright\arraybackslash}p{0.12\textwidth} | >{\raggedright\arraybackslash}p{0.58\textwidth}|}
@@ -34,7 +46,7 @@ YEAR value ranges from 2000 to 2025. QUARTER value ranges from 1 to 4 (Q1--Q4), 
 HOUSING TYPE values is one of the values in this set: \{Single-detached, Apartment, Row Housing, All Housing Types\}} \\[6ex] \cline{1-2}
 QUARTER & Integer & \\ \cline{1-2}
 HOUSING TYPE & Categorical & \\ \hline
-MEDIAN HOUSING PRICE & Integer & Median sale price for a particular year/quarter/house-type. (CAD) This is derived from BC Assessment Data and smoothed out using a 3-month moving average. \\ \hline
+MEDIAN HOUSING PRICE & Integer & The median price (CAD) for the given property type during the specified year and quarter. This figure is calculated by BC Stats using BC Assessment data and a 3-month moving average. \\ \hline
 MEDIAN INCOME & Float & Estimated quarterly median family income. (CAD) \\ \hline
 PRIME INTEREST RATE & Float & Base loan interest rate used to estimate mortgage rates. (\%).\\ \hline
 MPPI & Float & Affordability metric based on median after-income tax, home price, minimum down payment, and 25-year variable rate mortgage (based on prime). Higher means less affordable. (\% of income) \\ \hline
@@ -94,6 +106,7 @@ The lineplot shows a strong upward trend in median housing prices across all hou
     \caption{Distribution of log transformed Median Housing Prices}
 \end{figure}
 
+% TODO change it to bimodal and change discussion about it
 The log-transformed distribution of median housing prices seems approximately symmetric and unimodal, implying that the original right-skewness has been mitigated. The transformation makes the data more suitable for regression analysis.
 
 \section*{Statistical analysis}
@@ -209,6 +222,7 @@ Therefore, the Base Model was selected as the final representation.
     \caption{Overall fit statistics for the final regression model.}
 \end{table}
 
+% TODO improve interpretation of the 4 plots
 Diagnostic plots (Figure 4) for the final linear regression model, including the residuals-versus-fitted and scale-location plots, suggest roughly constant variance overall, although there is small non-constant spread at the extremes. The Q-Q plot shows a consistent trend, with little deviation even at the extremes, meaning the assumption of normality is unlikely violated.
 
 \begin{figure}[H]
