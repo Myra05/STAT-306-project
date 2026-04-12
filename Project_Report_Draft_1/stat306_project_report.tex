@@ -222,8 +222,11 @@ Therefore, the Base Model was selected as the final representation.
     \caption{Overall fit statistics for the final regression model.}
 \end{table}
 
-% TODO improve interpretation of the 4 plots
-Diagnostic plots (Figure 4) for the final linear regression model, including the residuals-versus-fitted and scale-location plots, suggest roughly constant variance overall, although there is small non-constant spread at the extremes. The Q-Q plot shows a consistent trend, with little deviation even at the extremes, meaning the assumption of normality is unlikely violated.
+The residuals-versus-fitted plot (Figure 4 Plot 1) has points randomly scattered across the plot, which suggests a linear plot is appropriate, and there is a small amount of heteroscedasticity, shown by the overall increase in the spread of residuals at higher fitted values, which still roughly supports the constant-variance assumption.\\
+The Q-Q residuals plot (Figure 4 Plot 2) closely follows a fairly straight line, with the trend only deviating slightly at the extreme tails, meaning the assumption of normality is unlikely violated.\\
+The scale-location plot (Figure 4 Plot 3) supports the residuals-versus-fitted plot, as the standardized residuals are relatively horizontal, but has a slight increase at higher fitted values, so the variance is stable but a small amount of heteroscedasticity.\\
+The residuals-versus-leverage plot (Figure 4 Plot 4) shows that none of the of observations exceed Cook's distance, meaning there are no strong outliers.\\
+Overall, these plots suggest roughly constant variance and normality with no influential observations, although there is small non-constant spread at the extreme fitted values.
 
 \begin{figure}[H]
     \centering
