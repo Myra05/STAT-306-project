@@ -22,6 +22,7 @@ The following changes were made to the project draft:
     \item Improved the description for the variable \verb|MEDIAN HOUSING PRICE|
     \item Improved EDA plot descriptions
     \item Furthered model diagonistic discussion in the statistic analysis section.
+    \item Re-organized some discussion so model is stated earlier.
 \end{itemize}
 Now, the project draft follows.
 \clearpage
@@ -180,6 +181,14 @@ As shown in the comparison table, the \textbf{Base Model} (including Housing Typ
 Furthermore, the \textbf{Mallows' $C_p$} for the Base Model was \textbf{6.83}, which is close to the expected value ($k=7$). This indicates the model is unbiased and follows the \textbf{Principle of Parsimony}.
 Therefore, the Base Model was selected as the final representation.
 
+\begin{equation*}
+    \begin{aligned}
+        \log(\widehat{\text{median\_housing\_price}}) = 11.348 &- 0.340 \cdot I\{\text{housing\_typeCondos}\} + 0.452 \cdot I\{\text{housing\_typeSingle-detached}\} \\
+        &- 0.104 \cdot I\{\text{housing\_typeTownhouses}\} + 0.278(\text{income\_10k}) \\
+        &- 0.0283(\text{prime\_interest\_rate})
+    \end{aligned}
+\end{equation*}
+
 \begin{table}[H]
     \centering
     \small
@@ -257,14 +266,7 @@ Lastly, the sequential residual plot (Figure 6) reveals a wave-like structure. T
 \clearpage
 
 \section*{Discussion}
-Using multiple linear regression, we derived the following model to describe the relationship between macroeconomic factors and housing prices in Metro Vancouver:
-\begin{equation*}
-    \begin{aligned}
-        \log(\widehat{\text{median\_housing\_price}}) = 11.348 &- 0.340 \cdot I\{\text{housing\_typeCondos}\} + 0.452 \cdot I\{\text{housing\_typeSingle-detached}\} \\
-        &- 0.104 \cdot I\{\text{housing\_typeTownhouses}\} + 0.278(\text{income\_10k}) \\
-        &- 0.0283(\text{prime\_interest\_rate})
-    \end{aligned}
-\end{equation*}
+Using multiple linear regression, we derived a model (table 6) that uses housing type, income, and interest rate, to describe the relationship between macroeconomic factors and housing prices in Metro Vancouver. \\
 
 The fitted model observes that a higher median family income is associated with higher median housing prices, whereas higher prime interest rates are associated with lower median housing prices. Furthermore, we notice a distinct hierarchy among housing types. When holding other factors constant, single-detached homes have the highest expected prices, followed by townhouses, the regional average (``All Housing Types''), and finally condos.\\
 

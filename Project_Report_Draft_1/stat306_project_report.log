@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  12 APR 2026 01:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  12 APR 2026 01:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,16 +386,16 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Overfull \vbox (12.0pt too high) detected at line 44
+Overfull \vbox (12.0pt too high) detected at line 45
  []
 
 
-Overfull \vbox (24.0pt too high) detected at line 48
+Overfull \vbox (24.0pt too high) detected at line 49
  []
 
 [2
@@ -404,45 +404,45 @@ Overfull \vbox (24.0pt too high) detected at line 48
 <figs/heatmap.png, id=27, 660.96938pt x 592.46344pt>
 File: figs/heatmap.png Graphic file (type png)
 <use figs/heatmap.png>
-Package pdftex.def Info: figs/heatmap.png  used on input line 90.
+Package pdftex.def Info: figs/heatmap.png  used on input line 91.
 (pdftex.def)             Requested size: 328.82541pt x 294.75743pt.
 <figs/housingpriceslinegraph.png, id=28, 752.8125pt x 451.6875pt>
 File: figs/housingpriceslinegraph.png Graphic file (type png)
 <use figs/housingpriceslinegraph.png>
-Package pdftex.def Info: figs/housingpriceslinegraph.png  used on input line 99.
+Package pdftex.def Info: figs/housingpriceslinegraph.png  used on input line 100.
 (pdftex.def)             Requested size: 379.4175pt x 227.65584pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.102 
+l.103 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.102 
+l.103 
        <./figs/heatmap.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 <figs/distribution.png, id=38, 660.96938pt x 592.46344pt>
 File: figs/distribution.png Graphic file (type png)
 <use figs/distribution.png>
-Package pdftex.def Info: figs/distribution.png  used on input line 109.
+Package pdftex.def Info: figs/distribution.png  used on input line 110.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
 [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.115 
+l.116 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.115 
+l.116 
        <./figs/housingpriceslinegraph.png> <./figs/distribution.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
@@ -450,53 +450,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182 
+l.183 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182 
+l.183 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182 
+l.183 
       ]
 <figs/varianceassumptionplots.png, id=60, 660.96938pt x 592.46344pt>
 File: figs/varianceassumptionplots.png Graphic file (type png)
 <use figs/varianceassumptionplots.png>
-Package pdftex.def Info: figs/varianceassumptionplots.png  used on input line 237.
+Package pdftex.def Info: figs/varianceassumptionplots.png  used on input line 246.
 (pdftex.def)             Requested size: 328.82541pt x 294.75743pt.
  [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.240 \clearpage
+l.249 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.240 \clearpage
+l.249 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.240 \clearpage
+l.249 \clearpage
                 ] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.240 \clearpage
+l.249 \clearpage
                  <./figs/varianceassumptionplots.png>]
-<figs/2by2.png, id=76, 660.96938pt x 592.46344pt>
+<figs/2by2.png, id=78, 660.96938pt x 592.46344pt>
 File: figs/2by2.png Graphic file (type png)
 <use figs/2by2.png>
-Package pdftex.def Info: figs/2by2.png  used on input line 246.
+Package pdftex.def Info: figs/2by2.png  used on input line 255.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
-<figs/seqresids.png, id=77, 660.96938pt x 592.46344pt>
+<figs/seqresids.png, id=79, 660.96938pt x 592.46344pt>
 File: figs/seqresids.png Graphic file (type png)
 <use figs/seqresids.png>
-Package pdftex.def Info: figs/seqresids.png  used on input line 254.
+Package pdftex.def Info: figs/seqresids.png  used on input line 263.
 (pdftex.def)             Requested size: 303.53708pt x 272.08447pt.
  [8
 
@@ -504,12 +504,12 @@ Package pdftex.def Info: figs/seqresids.png  used on input line 254.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.257 \clearpage
+l.266 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.257 \clearpage
+l.266 \clearpage
                  <./figs/2by2.png> <./figs/seqresids.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
@@ -545,6 +545,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
 [9
 
 ] [10] (./stat306_project_report.aux)
@@ -558,13 +563,13 @@ Package rerunfilecheck Info: File `stat306_project_report.out' has not changed.
 Here is how much of TeX's memory you used:
  10390 strings out of 467525
  158959 string characters out of 5418982
- 591972 words of memory out of 5000000
+ 590972 words of memory out of 5000000
  39129 multiletter control sequences out of 15000+600000
  641372 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,940b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on stat306_project_report.pdf (10 pages, 399856 bytes).
+Output written on stat306_project_report.pdf (10 pages, 399907 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
