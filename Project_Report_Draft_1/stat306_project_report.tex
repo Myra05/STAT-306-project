@@ -90,7 +90,7 @@ The mean housing price exceeds the median, suggesting a right-skewed plot, promp
     \label{fig:heatmap}
 \end{figure}
 
-The heatmap above clearly portrays that some of our variables are highly correlated with each other. The covariates 'year' and 'median\_after\_tax\_annual\_family\_income' seem to have a high correlation coefficient. This indicates potential multicollinearity, suggesting that it may be challenging to isolate the individual effects of these predictors.
+The heatmap above clearly portrays that some of our variables are highly correlated with each other. The covariates 'year' and 'median\_after\_tax\_annual\_family\_income' exhibit a strong correlation. While this may suggest multicollinearity, 'year' serves as a time index. The strong correlations are likely due to the underlying time trends which indicates potential time dependence in the data.
 
 \begin{figure}[H]
     \centering
@@ -98,7 +98,9 @@ The heatmap above clearly portrays that some of our variables are highly correla
     \caption{Housing prices over time among different housing types.}
 \end{figure}
 
-The lineplot shows a strong upward trend in median housing prices across all housing types. Single-detached houses consistently have the highest prices, followed by townhouses, while condos remain the least expensive. Price growth also seems to accelerate after 2015.
+The line plot shows a strong upward trend in median housing prices across all housing types. Single-detached houses consistently have the highest prices, followed by townhouses, while condos remain the least expensive. Price growth also seems to accelerate after 2015. \\
+
+Since this is time series data, observations that are close in time are likely to be correlated. This suggests a potential violation of the independence assumption, as consecutive observations may not be independent.
 
 \begin{figure}[H]
     \centering
@@ -107,7 +109,7 @@ The lineplot shows a strong upward trend in median housing prices across all hou
 \end{figure}
 
 % TODO change it to bimodal and change discussion about it
-The log-transformed distribution of median housing prices seems approximately symmetric and unimodal, implying that the original right-skewness has been mitigated. The transformation makes the data more suitable for regression analysis.
+The log-transformed distribution of median housing prices appears approximately symmetric but there is evidence of multiple peaks, suggesting a weakly bimodal distribution. While the log-transformation reduces the strong right-skewness present in the original data, some clustering remains across different price ranges. Overall, the transformation makes the data more suitable for regression analysis.
 
 \section*{Statistical analysis}
 We scaled some covariates to make interpreting the model easier, namely dividing \texttt{income} by 10000, and \texttt{resales} by 100.
